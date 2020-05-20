@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.kidslearning" >
+    package="com.example.kidslearning">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.VIBRATE" />
@@ -16,9 +16,9 @@
         android:largeHeap="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme" >
-        <activity android:name=".threeyear.Art" >
-        </activity>
+        android:theme="@style/AppTheme">
+        <activity android:name=".oneyear.Counting"></activity>
+        <activity android:name=".threeyear.Art"></activity>
         <activity android:name=".fouryear.Animalandgk" />
         <activity android:name=".fiveyears.QuizMaths" />
         <activity android:name=".twoyear.ColorQuiz" />
@@ -54,7 +54,7 @@
         <activity android:name=".years.engalpha" />
         <activity android:name=".Register" />
         <activity android:name=".Dashboard" />
-        <activity android:name=".MainActivity" >
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

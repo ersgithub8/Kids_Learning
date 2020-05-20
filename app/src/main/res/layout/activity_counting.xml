@@ -19,7 +19,7 @@
             android:layout_height="144dp"
             android:weightSum="10"
             android:background="@drawable/button3"
-            android:id="@+id/banana">
+            android:id="@+id/c1">
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -32,7 +32,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Banana"
+                android:text="Counting"
                 android:fontFamily="@font/gibble"
                 android:layout_gravity="center_vertical"
                 android:textColor="#ffffff"
@@ -48,7 +48,7 @@
             android:layout_height="144dp"
             android:weightSum="10"
             android:background="@drawable/button6"
-            android:id="@+id/carrot">
+            android:id="@+id/c2">
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -61,13 +61,13 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Carrot"
+                android:text="Counting Animal"
                 android:fontFamily="@font/gibble"
                 android:layout_gravity="center_vertical"
                 android:textColor="#ffffff"
                 android:layout_weight="7"
                 android:textStyle="bold"
-                android:textSize="30dp"/>
+                android:textSize="25dp"/>
 
         </LinearLayout>
 
@@ -78,11 +78,12 @@
             android:layout_height="144dp"
             android:weightSum="10"
             android:background="@drawable/button2"
-            android:id="@+id/house1">
+            android:id="@+id/c3">
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/weather"
+                android:paddingLeft="10dp"
                 android:layout_weight="3"
 
                 android:layout_gravity="center_vertical"
@@ -91,13 +92,14 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="House"
+                android:text="Counting WorkBook"
                 android:fontFamily="@font/gibble"
+                android:paddingLeft="20dp"
                 android:layout_gravity="center_vertical"
                 android:textColor="#ffffff"
                 android:layout_weight="7"
                 android:textStyle="bold"
-                android:textSize="30dp"/>
+                android:textSize="25dp"/>
 
         </LinearLayout>
 
@@ -108,7 +110,7 @@
             android:layout_height="144dp"
             android:weightSum="10"
             android:background="@drawable/button4"
-            android:id="@+id/house2">
+            android:id="@+id/c4">
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -121,7 +123,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="House"
+                android:text="Counting 1-20"
                 android:fontFamily="@font/gibble"
                 android:layout_gravity="center_vertical"
                 android:textColor="#ffffff"
@@ -131,100 +133,6 @@
 
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_margin="30dp"
-            android:orientation="horizontal"
-            android:layout_height="144dp"
-            android:weightSum="10"
-            android:background="@drawable/button5"
-            android:id="@+id/pencil1">
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/month"
-                android:paddingLeft="10dp"
-                android:layout_weight="3"
 
-                android:layout_gravity="center_vertical"
-                />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Pencil"
-                android:fontFamily="@font/gibble"
-                android:paddingLeft="15dp"
-                android:layout_gravity="center_vertical"
-                android:textColor="#ffffff"
-                android:layout_weight="7"
-                android:textStyle="bold"
-                android:textSize="25dp"/>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_margin="30dp"
-            android:orientation="horizontal"
-            android:layout_height="144dp"
-            android:weightSum="10"
-            android:background="@drawable/button3"
-            android:id="@+id/pencil2">
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/month"
-                android:paddingLeft="10dp"
-                android:layout_weight="3"
-
-                android:layout_gravity="center_vertical"
-                />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Pencil"
-                android:fontFamily="@font/gibble"
-                android:paddingLeft="15dp"
-                android:layout_gravity="center_vertical"
-                android:textColor="#ffffff"
-                android:layout_weight="7"
-                android:textStyle="bold"
-                android:textSize="25dp"/>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_margin="30dp"
-            android:orientation="horizontal"
-            android:layout_height="144dp"
-            android:weightSum="10"
-            android:background="@drawable/button6"
-            android:id="@+id/ship">
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/month"
-                android:paddingLeft="10dp"
-                android:layout_weight="3"
-
-                android:layout_gravity="center_vertical"
-                />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Ship"
-                android:fontFamily="@font/gibble"
-                android:paddingLeft="15dp"
-                android:layout_gravity="center_vertical"
-                android:textColor="#ffffff"
-                android:layout_weight="7"
-                android:textStyle="bold"
-                android:textSize="25dp"/>
-
-        </LinearLayout>
     </LinearLayout>
 </ScrollView>

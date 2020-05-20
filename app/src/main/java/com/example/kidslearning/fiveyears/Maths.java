@@ -31,6 +31,7 @@ public class Maths extends AppCompatActivity {
         f3=(LinearLayout)findViewById(R.id.f3);
         quiz=(LinearLayout)findViewById(R.id.quizm);
         mp=MediaPlayer.create(this,R.raw.press);
+
         add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
