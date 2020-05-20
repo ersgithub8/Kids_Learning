@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroun2"
+
+    android:orientation="vertical"
+    tools:context="com.example.kidslearning.oneyear.Quizabc">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A"
+        android:id="@+id/tvqa"
+        android:textSize="240dp"
+        android:gravity="center"
+        android:textColor="#ff0000"
+        android:fontFamily="@font/gibble"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FOR"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:textColor="#ff0000"
+        android:fontFamily="@font/gibble"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            android:id="@+id/qabcimg1"
+            android:src="@drawable/leaf"
+            />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            android:id="@+id/qabcimg2"
+            android:src="@drawable/apple"
+            />
+
+    </LinearLayout>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/qabcimg3"
+        android:src="@drawable/ball"
+        />
+</LinearLayout>
+</ScrollView>

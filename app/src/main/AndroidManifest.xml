@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kidslearning">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".fiveyears.QuizMaths"></activity>
+        <activity android:name=".twoyear.ColorQuiz" />
+        <activity android:name=".twoyear.Color" />
+        <activity android:name=".twoyear.BodyPartQuiz" />
+        <activity android:name=".twoyear.BodyPart" />
+        <activity android:name=".twoyear.VegitableQuiz" />
+        <activity android:name=".twoyear.Vegitable" />
+        <activity android:name=".twoyear.FruitQuiz" />
+        <activity android:name=".twoyear.Fruit" />
+        <activity android:name=".QuizComplete" />
+        <activity android:name=".oneyear.QuizOneTwo" />
+        <activity android:name=".oneyear.ONETWO" />
+        <activity android:name=".oneyear.QuizUrdu" />
+        <activity android:name=".oneyear.Urdualif" />
+        <activity android:name=".oneyear.Quizabc" />
+        <activity android:name=".oneyear.ABC" />
+        <activity android:name=".fiveyears.ScienceandComputer" />
+        <activity android:name=".fouryear.Urdupoems4year" />
+        <activity android:name=".fouryear.EnglishPoems" />
+        <activity android:name=".fiveyears.Maths" />
+        <activity android:name=".threeyear.UrduPoems" />
+        <activity android:name=".threeyear.Kalma3456" />
+        <activity
+            android:name=".VideoActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="sensorLandscape" />
+        <activity android:name=".twoyear.Kalma" />
+        <activity android:name=".years.Fiveyears" />
+        <activity android:name=".years.FourYears" />
+        <activity android:name=".years.ThreeYears" />
+        <activity android:name=".years.Twoyears" />
+        <activity android:name=".years.engalpha" />
+        <activity android:name=".Register" />
+        <activity android:name=".Dashboard" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

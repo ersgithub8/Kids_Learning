@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/backgroun2"
+    tools:context="com.example.kidslearning.twoyear.BodyPartQuiz">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Which one is ear?"
+            android:id="@+id/tvbp"
+            android:textSize="40dp"
+            android:gravity="center"
+            android:padding="20dp"
+            android:textColor="#ff0000"
+            android:fontFamily="@font/gibble"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="40dp"
+            android:weightSum="2">
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:id="@+id/bpimg1"
+                android:src="@drawable/hair"
+                />
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:id="@+id/bpimg2"
+                android:src="@drawable/ear"
+                />
+
+        </LinearLayout>
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/bpimg3"
+            android:src="@drawable/eye"
+            />
+    </LinearLayout>
+</ScrollView>

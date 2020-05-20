@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroun2"
+
+    tools:context="com.example.kidslearning.years.ThreeYears">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_margin="30dp"
+            android:orientation="horizontal"
+            android:layout_height="144dp"
+            android:weightSum="10"
+            android:background="@drawable/button4"
+            android:id="@+id/kalma2">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/kalma"
+                android:layout_weight="3"
+
+                android:layout_gravity="center_vertical"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kalma"
+                android:layout_gravity="center_vertical"
+                android:textColor="#ffffff"
+                android:layout_weight="7"
+                android:fontFamily="@font/gibble"
+                android:textStyle="bold"
+                android:textSize="30dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_margin="30dp"
+            android:orientation="horizontal"
+            android:layout_height="144dp"
+            android:weightSum="10"
+            android:background="@drawable/button5"
+            android:id="@+id/gestures">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/namaz"
+                android:layout_weight="3"
+
+                android:layout_gravity="center_vertical"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gestures\nof Namaz"
+                android:layout_gravity="center_vertical"
+                android:textColor="#ffffff"
+                android:fontFamily="@font/gibble"
+                android:layout_weight="7"
+                android:textStyle="bold"
+                android:textSize="30dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_margin="30dp"
+            android:orientation="horizontal"
+            android:layout_height="144dp"
+            android:weightSum="10"
+            android:background="@drawable/button1"
+            android:id="@+id/spelling">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/spelling"
+                android:layout_weight="3"
+
+                android:layout_gravity="center_vertical"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Spellings"
+                android:fontFamily="@font/gibble"
+                android:layout_gravity="center_vertical"
+                android:textColor="#ffffff"
+                android:layout_weight="7"
+                android:textStyle="bold"
+                android:textSize="30dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_margin="30dp"
+            android:orientation="horizontal"
+            android:layout_height="144dp"
+            android:weightSum="10"
+            android:background="@drawable/button2"
+            android:id="@+id/arts">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/art"
+                android:layout_weight="3"
+
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Arts"
+                android:fontFamily="@font/gibble"
+                android:layout_gravity="center_vertical"
+                android:textColor="#ffffff"
+                android:layout_weight="7"
+                android:textStyle="bold"
+                android:textSize="30dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_margin="30dp"
+            android:orientation="horizontal"
+            android:layout_height="144dp"
+            android:weightSum="10"
+            android:background="@drawable/button3"
+            android:id="@+id/upoems">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/poems1"
+                android:layout_weight="3"
+
+                android:layout_gravity="center_vertical"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Urdu Poems"
+                android:fontFamily="@font/gibble"
+                android:layout_gravity="center_vertical"
+                android:textColor="#ffffff"
+                android:layout_weight="7"
+                android:textStyle="bold"
+                android:textSize="30dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

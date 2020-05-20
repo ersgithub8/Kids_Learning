@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "300684565795",
+    "firebase_url": "https://new-apps-69.firebaseio.com",
+    "project_id": "new-apps-69",
+    "storage_bucket": "new-apps-69.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300684565795:android:28fc810bfd8cee66490096",
+        "android_client_info": {
+          "package_name": "com.example.fashion_design"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300684565795-ct857q40hismpk8uf3vhhbdl05lr4anb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8XuTxfK1250JfdTErLaBKOK-l32Ds1_E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300684565795-ct857q40hismpk8uf3vhhbdl05lr4anb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300684565795:android:9bfaf578ba8e86f1490096",
+        "android_client_info": {
+          "package_name": "com.kidslearning.ers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300684565795-ct857q40hismpk8uf3vhhbdl05lr4anb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8XuTxfK1250JfdTErLaBKOK-l32Ds1_E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300684565795-ct857q40hismpk8uf3vhhbdl05lr4anb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300684565795:android:6b9d170d17f218b5490096",
+        "android_client_info": {
+          "package_name": "com.mehandi.design"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300684565795-ct857q40hismpk8uf3vhhbdl05lr4anb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8XuTxfK1250JfdTErLaBKOK-l32Ds1_E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300684565795-ct857q40hismpk8uf3vhhbdl05lr4anb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

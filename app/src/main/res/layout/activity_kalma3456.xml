@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroun2"
+
+    tools:context="com.example.kidslearning.threeyear.Kalma3456">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_margin="30dp"
+            android:orientation="horizontal"
+            android:layout_height="144dp"
+            android:weightSum="10"
+            android:background="@drawable/button4"
+            android:id="@+id/k3">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/kalma"
+                android:layout_weight="3"
+
+                android:layout_gravity="center_vertical"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Third\n  Kalma"
+                android:layout_gravity="center_vertical"
+                android:textColor="#ffffff"
+                android:layout_weight="7"
+                android:fontFamily="@font/gibble"
+                android:textStyle="bold"
+                android:textSize="30dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_margin="30dp"
+            android:orientation="horizontal"
+            android:layout_height="144dp"
+            android:weightSum="10"
+            android:background="@drawable/button1"
+            android:id="@+id/k4">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/kalma"
+                android:layout_weight="3"
+
+                android:layout_gravity="center_vertical"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Fourth\n  Kalma"
+                android:fontFamily="@font/gibble"
+                android:layout_gravity="center_vertical"
+                android:textColor="#ffffff"
+                android:layout_weight="7"
+                android:textStyle="bold"
+                android:textSize="30dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_margin="30dp"
+            android:orientation="horizontal"
+            android:layout_height="144dp"
+            android:weightSum="10"
+            android:background="@drawable/button2"
+            android:id="@+id/k5">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/kalma"
+                android:layout_weight="3"
+
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Fifth\n  Kalma"
+                android:fontFamily="@font/gibble"
+                android:layout_gravity="center_vertical"
+                android:textColor="#ffffff"
+                android:layout_weight="7"
+                android:textStyle="bold"
+                android:textSize="30dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_margin="30dp"
+            android:orientation="horizontal"
+            android:layout_height="144dp"
+            android:weightSum="10"
+            android:background="@drawable/button3"
+            android:id="@+id/k6">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/kalma"
+                android:layout_weight="3"
+
+                android:layout_gravity="center_vertical"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Sixth\n  Kalma"
+                android:fontFamily="@font/gibble"
+                android:layout_gravity="center_vertical"
+                android:textColor="#ffffff"
+                android:layout_weight="7"
+                android:textStyle="bold"
+                android:textSize="30dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

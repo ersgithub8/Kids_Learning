@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background1"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Register">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="40dp"
+    android:orientation="vertical">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffff"
+        android:textSize="30dp"
+        android:fontFamily="@font/going"
+        android:layout_marginBottom="20dp"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        android:id="@+id/name"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:inputType="phone"
+        android:textSize="30dp"
+        android:maxLength="11"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffff"
+        android:fontFamily="@font/going"
+        android:layout_height="wrap_content"
+        android:hint="Enter Phone"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/phone"/>
+
+    <DatePicker
+        android:id="@+id/datePicker1"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:datePickerMode="spinner"
+        android:calendarViewShown="false"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textColor="#ffffff"
+        android:padding="20dp"
+        android:textSize="30dp"
+        android:fontFamily="@font/going"
+        android:background="@drawable/button5"
+        android:layout_gravity="center"
+        android:id="@+id/btn"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/art1"
+            android:id="@+id/img1r"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="40dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/toys"
+            android:id="@+id/imgr2"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/img1r"
+            android:layout_alignParentBottom="true"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/toy"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/img3r"
+            android:layout_toRightOf="@id/imgr2"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="40dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/kindergarten"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/img3r"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="80dp"/>
+    </RelativeLayout>
+
+</LinearLayout>
+
+</LinearLayout>

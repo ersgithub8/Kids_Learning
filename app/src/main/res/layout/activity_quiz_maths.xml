@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroun2"
+
+    tools:context="com.example.kidslearning.fiveyears.QuizMaths">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2+2"
+            android:id="@+id/tvqm"
+            android:textSize="150dp"
+            android:gravity="center"
+            android:textColor="#ff0000"
+            android:fontFamily="@font/frosty"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="="
+            android:textSize="80dp"
+            android:gravity="center"
+            android:textColor="#ff0000"
+            android:fontFamily="@font/gibble"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:id="@+id/qmimg1"
+                android:text="6"
+                android:textColor="#ff0000"
+                android:fontFamily="@font/frosty"
+                android:textSize="140dp"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:id="@+id/qmimg2"
+                android:text="4"
+                android:textColor="#ff0000"
+                android:fontFamily="@font/frosty"
+                android:textSize="140dp"
+                android:gravity="center"
+                />
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/qmimg3"
+            android:text="1"
+            android:textColor="#ff0000"
+            android:fontFamily="@font/frosty"
+            android:textSize="140dp"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+</ScrollView>
