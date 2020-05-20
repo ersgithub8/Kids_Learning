@@ -27,7 +27,8 @@ public class ABC extends AppCompatActivity {
         public void onClick(View v) {
             mp.start();
             Intent intent=new Intent(ABC.this, VideoActivity.class);
-            intent.putExtra("url","https://firebasestorage.googleapis.com/v0/b/new-apps-69.appspot.com/o/Kapwing%20-%20Where%20Content%20Creation%20Happens.mp4?alt=media&token=efa48da2-6777-45e8-ad67-ced1b344f5c6");
+            //intent.putExtra("url","https://firebasestorage.googleapis.com/v0/b/new-apps-69.appspot.com/o/Kapwing%20-%20Where%20Content%20Creation%20Happens.mp4?alt=media&token=efa48da2-6777-45e8-ad67-ced1b344f5c6");
+            intent.putExtra("url","https://firebasestorage.googleapis.com/v0/b/new-apps-69.appspot.com/o/kids%20learning%20new%20videos%2FABC.mp4?alt=media&token=b38e60e9-6ec8-4ed3-b4c9-448fe8275cf5");
             startActivity(intent);
         }
     });

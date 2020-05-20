@@ -29,7 +29,8 @@ public class UrduPoems extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent=new Intent(UrduPoems.this, VideoActivity.class);
                 mp.start();
-                intent.putExtra("url","https://firebasestorage.googleapis.com/v0/b/new-apps-69.appspot.com/o/Bulbul%20ka%20bacha.mp4?alt=media&token=0fc11e61-eabb-49a3-9906-2eff3bdc0385");
+                //intent.putExtra("url","https://firebasestorage.googleapis.com/v0/b/new-apps-69.appspot.com/o/Bulbul%20ka%20bacha.mp4?alt=media&token=0fc11e61-eabb-49a3-9906-2eff3bdc0385");
+                intent.putExtra("url","https://firebasestorage.googleapis.com/v0/b/new-apps-69.appspot.com/o/kids%20learning%20new%20videos%2Furdu%20poems%2FBulbul%20Ka%20Bacha.mp4?alt=media&token=b852f6c7-12d3-44ae-baf2-4afae1eca134");
                 startActivity(intent);
             }
         });
@@ -66,7 +67,8 @@ public class UrduPoems extends AppCompatActivity {
             public void onClick(View v) {
                 mp.start();
                 Intent intent=new Intent(UrduPoems.this, VideoActivity.class);
-                intent.putExtra("url","https://firebasestorage.googleapis.com/v0/b/new-apps-69.appspot.com/o/Abu%20lay%20motor%20car.mp4?alt=media&token=ff690114-bace-4bf0-937b-1263815aaa7e");
+                //intent.putExtra("url","https://firebasestorage.googleapis.com/v0/b/new-apps-69.appspot.com/o/Abu%20lay%20motor%20car.mp4?alt=media&token=ff690114-bace-4bf0-937b-1263815aaa7e");
+                intent.putExtra("url","https://firebasestorage.googleapis.com/v0/b/new-apps-69.appspot.com/o/kids%20learning%20new%20videos%2Furdu%20poems%2FMotor%20car.mp4?alt=media&token=110be496-a90a-47b8-9183-11a5e77b4aca");
                 startActivity(intent);
             }
         });

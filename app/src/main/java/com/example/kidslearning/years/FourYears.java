@@ -8,6 +8,7 @@ import android.widget.LinearLayout;
 
 import com.example.kidslearning.R;
 import com.example.kidslearning.VideoActivity;
+import com.example.kidslearning.fouryear.Animalandgk;
 import com.example.kidslearning.fouryear.EnglishPoems;
 import com.example.kidslearning.fouryear.Urdupoems4year;
 
@@ -28,9 +29,9 @@ public class FourYears extends AppCompatActivity {
         gk.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mp.start();
-                Intent intent =new Intent(FourYears.this, VideoActivity.class);
-                intent.putExtra("url","https://firebasestorage.googleapis.com/v0/b/new-apps-69.appspot.com/o/gk2.mp4?alt=media&token=a37ddb49-a358-44cc-84a2-7a7492728f2f");
+                //mp.start();
+                Intent intent =new Intent(FourYears.this, Animalandgk.class);
+                //intent.putExtra("url","https://firebasestorage.googleapis.com/v0/b/new-apps-69.appspot.com/o/gk2.mp4?alt=media&token=a37ddb49-a358-44cc-84a2-7a7492728f2f");
                 startActivity(intent);
             }
         });

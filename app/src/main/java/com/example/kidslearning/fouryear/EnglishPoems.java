@@ -30,7 +30,8 @@ public class EnglishPoems extends AppCompatActivity {
             public void onClick(View v) {
                 mp.start();
                 Intent intent=new Intent(EnglishPoems.this, VideoActivity.class);
-                intent.putExtra("url","https://firebasestorage.googleapis.com/v0/b/new-apps-69.appspot.com/o/Baa%20Baa%20Black%20Sheep.mp4?alt=media&token=f8a79446-0ff8-4d10-be12-f3c62a08669d");
+                //intent.putExtra("url","https://firebasestorage.googleapis.com/v0/b/new-apps-69.appspot.com/o/Baa%20Baa%20Black%20Sheep.mp4?alt=media&token=f8a79446-0ff8-4d10-be12-f3c62a08669d");
+                intent.putExtra("url","https://firebasestorage.googleapis.com/v0/b/new-apps-69.appspot.com/o/kids%20learning%20new%20videos%2Fenglish%20poems%2FBaa%20baa%20black%20sheep.mp4?alt=media&token=2dbba749-2609-4af9-86dd-1030a03c8bfb");
                 startActivity(intent);
             }
         });
@@ -40,7 +41,8 @@ public class EnglishPoems extends AppCompatActivity {
             public void onClick(View v) {
                 mp.start();
                 Intent intent=new Intent(EnglishPoems.this, VideoActivity.class);
-                intent.putExtra("url","https://firebasestorage.googleapis.com/v0/b/new-apps-69.appspot.com/o/Humpty%20dampty%201.mp4?alt=media&token=8ee87036-bb36-4fc0-9073-bb66bbecdb1f");
+                //intent.putExtra("url","https://firebasestorage.googleapis.com/v0/b/new-apps-69.appspot.com/o/Humpty%20dampty%201.mp4?alt=media&token=8ee87036-bb36-4fc0-9073-bb66bbecdb1f");
+                intent.putExtra("url","https://firebasestorage.googleapis.com/v0/b/new-apps-69.appspot.com/o/kids%20learning%20new%20videos%2Fenglish%20poems%2Fhumpty%20dumpty.mp4?alt=media&token=dbe5df01-d438-4ca0-b6c3-6ab9134b1096");
                 startActivity(intent);
             }
         });
@@ -58,7 +60,8 @@ public class EnglishPoems extends AppCompatActivity {
             public void onClick(View v) {
                 mp.start();
                 Intent intent=new Intent(EnglishPoems.this, VideoActivity.class);
-                intent.putExtra("url","https://firebasestorage.googleapis.com/v0/b/new-apps-69.appspot.com/o/Jhony.mp4?alt=media&token=fb41bbd1-1660-4ee7-a652-63b050cbb78a");
+                //intent.putExtra("url","https://firebasestorage.googleapis.com/v0/b/new-apps-69.appspot.com/o/Jhony.mp4?alt=media&token=fb41bbd1-1660-4ee7-a652-63b050cbb78a");
+                intent.putExtra("url","https://firebasestorage.googleapis.com/v0/b/new-apps-69.appspot.com/o/kids%20learning%20new%20videos%2Fenglish%20poems%2Fjohny.mp4?alt=media&token=1ea18881-a60f-4161-b8ed-3c73b35ab001");
                 startActivity(intent);
             }
         });

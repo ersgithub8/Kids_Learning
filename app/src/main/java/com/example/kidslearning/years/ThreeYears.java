@@ -58,7 +58,8 @@ MediaPlayer mp;
             public void onClick(View v) {
                 mp.start();
                 Intent intent=new Intent(ThreeYears.this, VideoActivity.class);
-                intent.putExtra("url","https://firebasestorage.googleapis.com/v0/b/new-apps-69.appspot.com/o/Art%201.mp4?alt=media&token=cae60bbb-edae-4bed-8991-bf66aeba11be");
+                //intent.putExtra("url","https://firebasestorage.googleapis.com/v0/b/new-apps-69.appspot.com/o/Art%201.mp4?alt=media&token=cae60bbb-edae-4bed-8991-bf66aeba11be");
+                intent.putExtra("url","https://firebasestorage.googleapis.com/v0/b/new-apps-69.appspot.com/o/kids%20learning%20new%20videos%2Fbanana.mp4?alt=media&token=d5b24343-4ada-48c3-becc-f60e2ae0ebcb");
                 startActivity(intent);
             }
         });

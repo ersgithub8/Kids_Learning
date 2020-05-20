@@ -27,7 +27,8 @@ public class Color extends AppCompatActivity {
         public void onClick(View v) {
             mp.start();
             Intent intent=new Intent(Color.this, VideoActivity.class);
-            intent.putExtra("url","https://firebasestorage.googleapis.com/v0/b/new-apps-69.appspot.com/o/Color%20name.mp4?alt=media&token=5ade96fa-b410-4185-bdbc-ce5963c17a7c");
+            //intent.putExtra("url","https://firebasestorage.googleapis.com/v0/b/new-apps-69.appspot.com/o/Color%20name.mp4?alt=media&token=5ade96fa-b410-4185-bdbc-ce5963c17a7c");
+            intent.putExtra("url","https://firebasestorage.googleapis.com/v0/b/new-apps-69.appspot.com/o/kids%20learning%20new%20videos%2FColors.mp4?alt=media&token=8e4f9a6e-a343-49e6-9975-1b1e1d01f26c");
             startActivity(intent);
         }
     });

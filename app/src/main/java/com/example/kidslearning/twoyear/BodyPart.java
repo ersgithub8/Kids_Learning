@@ -27,7 +27,8 @@ public class BodyPart extends AppCompatActivity {
         public void onClick(View v) {
             mp.start();
             Intent intent=new Intent(BodyPart.this, VideoActivity.class);
-            intent.putExtra("url","https://firebasestorage.googleapis.com/v0/b/new-apps-69.appspot.com/o/parts%20of%20body.mp4?alt=media&token=f3dec1ea-16af-4d5f-9f06-da7377006392");
+            //intent.putExtra("url","https://firebasestorage.googleapis.com/v0/b/new-apps-69.appspot.com/o/parts%20of%20body.mp4?alt=media&token=f3dec1ea-16af-4d5f-9f06-da7377006392");
+            intent.putExtra("url","https://firebasestorage.googleapis.com/v0/b/new-apps-69.appspot.com/o/kids%20learning%20new%20videos%2FBady%20Parts.mp4?alt=media&token=00a32446-67f2-4395-ae43-a57afc3c9cd0");
             startActivity(intent);
         }
     });

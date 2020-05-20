@@ -27,7 +27,8 @@ public class ONETWO extends AppCompatActivity {
         public void onClick(View v) {
             mp.start();
             Intent intent=new Intent(ONETWO.this, VideoActivity.class);
-            intent.putExtra("url","https://firebasestorage.googleapis.com/v0/b/new-apps-69.appspot.com/o/Our%20Favorite%20Numbers%20Songs%20-%20Kids%20Songs%20-%20Super%20Simple%20Songs_2.mp4?alt=media&token=f9b177a7-9633-4f49-8492-fc1179e0ca05");
+            //intent.putExtra("url","https://firebasestorage.googleapis.com/v0/b/new-apps-69.appspot.com/o/Our%20Favorite%20Numbers%20Songs%20-%20Kids%20Songs%20-%20Super%20Simple%20Songs_2.mp4?alt=media&token=f9b177a7-9633-4f49-8492-fc1179e0ca05");
+            intent.putExtra("url","https://firebasestorage.googleapis.com/v0/b/new-apps-69.appspot.com/o/kids%20learning%20new%20videos%2FCounting.mp4?alt=media&token=3f50f842-8cbc-4281-83d1-94c20bb1bbd4");
             startActivity(intent);
         }
     });

@@ -27,7 +27,8 @@ public class Vegitable extends AppCompatActivity {
         public void onClick(View v) {
             mp.start();
             Intent intent=new Intent(Vegitable.this, VideoActivity.class);
-            intent.putExtra("url","https://firebasestorage.googleapis.com/v0/b/new-apps-69.appspot.com/o/Vegetable%20Song1.mp4?alt=media&token=54c19b2f-6ff8-4ef1-be77-a4fac5b00b10");
+            //intent.putExtra("url","https://firebasestorage.googleapis.com/v0/b/new-apps-69.appspot.com/o/Vegetable%20Song1.mp4?alt=media&token=54c19b2f-6ff8-4ef1-be77-a4fac5b00b10");
+            intent.putExtra("url","https://firebasestorage.googleapis.com/v0/b/new-apps-69.appspot.com/o/kids%20learning%20new%20videos%2FVegetables.mp4?alt=media&token=6ee49365-eed9-437f-955b-e7171077dc4b");
             startActivity(intent);
         }
     });

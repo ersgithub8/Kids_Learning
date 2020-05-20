@@ -28,7 +28,8 @@ public class Fruit extends AppCompatActivity {
         public void onClick(View v) {
             mp.start();
             Intent intent=new Intent(Fruit.this, VideoActivity.class);
-            intent.putExtra("url","https://firebasestorage.googleapis.com/v0/b/new-apps-69.appspot.com/o/fruits%20name1.mp4?alt=media&token=e5846f92-5d1b-497e-a254-214aa0532151");
+            //intent.putExtra("url","https://firebasestorage.googleapis.com/v0/b/new-apps-69.appspot.com/o/fruits%20name1.mp4?alt=media&token=e5846f92-5d1b-497e-a254-214aa0532151");
+            intent.putExtra("url","https://firebasestorage.googleapis.com/v0/b/new-apps-69.appspot.com/o/kids%20learning%20new%20videos%2FFruits.mp4?alt=media&token=aeb7cb7c-1ac7-4ca1-913f-a99ad70cebd8");
             startActivity(intent);
         }
     });

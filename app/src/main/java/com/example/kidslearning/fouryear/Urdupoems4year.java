@@ -29,7 +29,8 @@ MediaPlayer mp;
             @Override
             public void onClick(View v) {mp.start();
                 Intent intent=new Intent(Urdupoems4year.this, VideoActivity.class);
-                intent.putExtra("url","https://firebasestorage.googleapis.com/v0/b/new-apps-69.appspot.com/o/Alo%20mia.mp4?alt=media&token=8415d105-be9c-4646-83a1-88a76ed703f4");
+                //intent.putExtra("url","https://firebasestorage.googleapis.com/v0/b/new-apps-69.appspot.com/o/Alo%20mia.mp4?alt=media&token=8415d105-be9c-4646-83a1-88a76ed703f4");
+                intent.putExtra("url","https://firebasestorage.googleapis.com/v0/b/new-apps-69.appspot.com/o/kids%20learning%20new%20videos%2Furdu%20poems%2FAloo%20Main.mp4?alt=media&token=daa7a3d6-af22-4dcb-9207-b27ac8fd824d");
                 startActivity(intent);
             }
         });
