@@ -56,10 +56,10 @@ public class VegitableQuiz extends AppCompatActivity implements View.OnClickList
                 mp.start();
                 customToastClick(v);
             } else if (v == img2) {
-                alphabet.setText("Which one is carrot?");
-                img1.setImageResource(R.drawable.leek);
-                img2.setImageResource(R.drawable.celery);
-                img3.setImageResource(R.drawable.carrot);
+                alphabet.setText("Which one is Pepper?");
+                img1.setImageResource(R.drawable.broccoli);
+                img2.setImageResource(R.drawable.mushroom);
+                img3.setImageResource(R.drawable.pepper);
                 mediaPlayer.start();
                 counter++;
             } else if (v == img3) {mp.start();
@@ -72,18 +72,18 @@ public class VegitableQuiz extends AppCompatActivity implements View.OnClickList
                 mp.start();
                 customToastClick(v);
             } else if (v == img3) {
-                alphabet.setText("Which one is celery?");
-                img1.setImageResource(R.drawable.celery);
+                alphabet.setText("Which one is Corn?");
+                img1.setImageResource(R.drawable.corn);
                 img2.setImageResource(R.drawable.potato);
-                img3.setImageResource(R.drawable.broccoli);
+                img3.setImageResource(R.drawable.radish);
                 mediaPlayer.start();
                 counter++;
             }
         } else if (counter == 3) {
             if (v == img1) {
                 alphabet.setText("Which one is garlic?");
-                img1.setImageResource(R.drawable.leek);
-                img2.setImageResource(R.drawable.cabbage);
+                img1.setImageResource(R.drawable.mushroom);
+                img2.setImageResource(R.drawable.cucumber);
                 img3.setImageResource(R.drawable.garlic);
                 mediaPlayer.start();
                 counter++;
@@ -102,12 +102,12 @@ public class VegitableQuiz extends AppCompatActivity implements View.OnClickList
                 customToastClick(v);
                 mp.start();
             } else if (v == img3) {
-                alphabet.setText("Which one is leek?");
-                img1.setImageResource(R.drawable.onion);
-                img2.setImageResource(R.drawable.leek);
+                alphabet.setText("Which one is Eggplant?");
+                img1.setImageResource(R.drawable.broccoli);
+                img2.setImageResource(R.drawable.eggplant);
                 mediaPlayer.start();
 
-                img3.setImageResource(R.drawable.spinach);
+                img3.setImageResource(R.drawable.cucumber);
                 counter++;
             }
         } else if (counter == 5) {
@@ -117,7 +117,7 @@ public class VegitableQuiz extends AppCompatActivity implements View.OnClickList
             } else if (v == img2) {
                 alphabet.setText("Which one is onion?");
                 img1.setImageResource(R.drawable.onion);
-                img2.setImageResource(R.drawable.carrot);
+                img2.setImageResource(R.drawable.pepper);
                 mediaPlayer.start();
 
                 img3.setImageResource(R.drawable.garlic);
@@ -130,7 +130,7 @@ public class VegitableQuiz extends AppCompatActivity implements View.OnClickList
             if (v == img1) {
                 alphabet.setText("Which one is potato?");
                 img1.setImageResource(R.drawable.garlic);
-                img2.setImageResource(R.drawable.carrot);
+                img2.setImageResource(R.drawable.radish);
                 mediaPlayer.start();
 
                 img3.setImageResource(R.drawable.potato);
@@ -149,12 +149,12 @@ public class VegitableQuiz extends AppCompatActivity implements View.OnClickList
                 mp.start();
                 customToastClick(v);
             } else if (v == img3) {
-                alphabet.setText("Which one is spinach?");
+                alphabet.setText("Which one is Ginger?");
                 img1.setImageResource(R.drawable.onion);
-                img2.setImageResource(R.drawable.spinach);
+                img2.setImageResource(R.drawable.ginger);
                 mediaPlayer.start();
 
-                img3.setImageResource(R.drawable.celery);
+                img3.setImageResource(R.drawable.corn);
                 counter++;
 
             }
@@ -162,12 +162,12 @@ public class VegitableQuiz extends AppCompatActivity implements View.OnClickList
             if (v == img1) {mp.start();
                 customToastClick(v);
             } else if (v == img2) {
-                alphabet.setText("Which one is Cabbage?");
+                alphabet.setText("Which one is Radish?");
                 mediaPlayer.start();
 
-                img1.setImageResource(R.drawable.cabbage);
-                img2.setImageResource(R.drawable.celery);
-                img3.setImageResource(R.drawable.potato);
+                img1.setImageResource(R.drawable.radish);
+                img2.setImageResource(R.drawable.pepper);
+                img3.setImageResource(R.drawable.garlic);
                 counter++;
 
             } else if (v == img3) {

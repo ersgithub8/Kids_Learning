@@ -8,7 +8,6 @@
     tools:context="com.example.kidslearning.oneyear.ABC">
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_gravity="center"
         android:layout_height="match_parent"
         android:orientation="vertical">
 
@@ -31,7 +30,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Lesson"
+                android:text="Lesson 1"
                 android:layout_gravity="center_vertical"
                 android:textColor="#ffffff"
                 android:layout_weight="7"
@@ -40,6 +39,98 @@
                 android:textSize="30dp"/>
 
         </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_margin="30dp"
+            android:orientation="horizontal"
+            android:layout_height="144dp"
+            android:weightSum="10"
+            android:background="@drawable/button3"
+            android:id="@+id/labc2">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/lesson"
+                android:layout_weight="3"
+                android:layout_gravity="center_vertical"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lesson 2"
+                android:layout_gravity="center_vertical"
+                android:textColor="#ffffff"
+                android:layout_weight="7"
+                android:fontFamily="@font/gibble"
+                android:textStyle="bold"
+                android:textSize="30dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_margin="30dp"
+            android:orientation="horizontal"
+            android:layout_height="144dp"
+            android:weightSum="10"
+            android:background="@drawable/button1"
+            android:id="@+id/labc3">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/lesson"
+                android:layout_weight="3"
+                android:layout_gravity="center_vertical"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lesson 3"
+                android:layout_gravity="center_vertical"
+                android:textColor="#ffffff"
+                android:layout_weight="7"
+                android:fontFamily="@font/gibble"
+                android:textStyle="bold"
+                android:textSize="30dp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_margin="30dp"
+            android:orientation="horizontal"
+            android:layout_height="144dp"
+            android:weightSum="10"
+            android:background="@drawable/button2"
+            android:id="@+id/aplha">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/abc"
+                android:layout_weight="3"
+
+                android:layout_gravity="center_vertical"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alphabets"
+                android:layout_gravity="center_vertical"
+                android:textColor="#ffffff"
+                android:fontFamily="@font/gibble"
+                android:layout_weight="7"
+                android:textStyle="bold"
+                android:textSize="35dp"/>
+
+        </LinearLayout>
+
+
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_margin="30dp"
@@ -69,6 +160,7 @@
                 android:textSize="40dp"/>
 
         </LinearLayout>
+
 
     </LinearLayout>
 

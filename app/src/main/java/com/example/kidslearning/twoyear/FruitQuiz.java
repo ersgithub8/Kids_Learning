@@ -56,13 +56,13 @@ public class FruitQuiz extends AppCompatActivity implements View.OnClickListener
                 mp.start();
                 customToastClick(v);
             } else if (v == img2) {
-                alphabet.setText("Which one is Barries?");
+                alphabet.setText("Which one is Orange?");
                 img1.setImageResource(R.drawable.mango);
 
                 mediaPlayer.start();
 
                 img2.setImageResource(R.drawable.grapes);
-                img3.setImageResource(R.drawable.baries);
+                img3.setImageResource(R.drawable.orangee);
                 counter++;
             } else if (v == img3) {
                 mp.start();
@@ -75,18 +75,18 @@ public class FruitQuiz extends AppCompatActivity implements View.OnClickListener
                 customToastClick(v);
             } else if (v == img3) {
                 alphabet.setText("Which one is grapes?");
-                img1.setImageResource(R.drawable.grapes);
+                img1.setImageResource(R.drawable.grapess);
                 mediaPlayer.start();
                 img2.setImageResource(R.drawable.tarboz);
-                img3.setImageResource(R.drawable.kela);
+                img3.setImageResource(R.drawable.ball);
                 counter++;
             }
         } else if (counter == 3) {
             if (v == img1) {
-                alphabet.setText("Which one is Mango?");
-                img1.setImageResource(R.drawable.baries);
-                img2.setImageResource(R.drawable.apple);
-                img3.setImageResource(R.drawable.mango);
+                alphabet.setText("Which one is Lemon?");
+                img1.setImageResource(R.drawable.pineapple);
+                img2.setImageResource(R.drawable.applee);
+                img3.setImageResource(R.drawable.lemon);
                 mediaPlayer.start();
                 counter++;
             } else if (v == img2) {mp.start();
@@ -101,10 +101,10 @@ public class FruitQuiz extends AppCompatActivity implements View.OnClickListener
                 customToastClick(v);
 
             } else if (v == img3) {
-                alphabet.setText("Which one is cherry?");
+                alphabet.setText("Which one is Banana?");
                 mediaPlayer.start();
-                img1.setImageResource(R.drawable.apple);
-                img2.setImageResource(R.drawable.cherry);
+                img1.setImageResource(R.drawable.applee);
+                img2.setImageResource(R.drawable.ball);
                 img3.setImageResource(R.drawable.tarboz);
                 counter++;
             }
@@ -112,11 +112,11 @@ public class FruitQuiz extends AppCompatActivity implements View.OnClickListener
             if (v == img1) {mp.start();
                 customToastClick(v);
             } else if (v == img2) {
-                alphabet.setText("Which one is pear?");
-                img1.setImageResource(R.drawable.pears);
+                alphabet.setText("Which one is PineApple?");
+                img1.setImageResource(R.drawable.pineapple);
                 mediaPlayer.start();
-                img2.setImageResource(R.drawable.baries);
-                img3.setImageResource(R.drawable.kela);
+                img2.setImageResource(R.drawable.lemon);
+                img3.setImageResource(R.drawable.ball);
                 counter++;
             } else if (v == img3) {mp.start();
                 customToastClick(v);

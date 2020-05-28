@@ -51,7 +51,7 @@
             android:layout_weight="1"
             android:layout_gravity="center_horizontal"
             android:id="@+id/vegimg3"
-            android:src="@drawable/spinach"
+            android:src="@drawable/eggplant"
             />
     </LinearLayout>
 </ScrollView>

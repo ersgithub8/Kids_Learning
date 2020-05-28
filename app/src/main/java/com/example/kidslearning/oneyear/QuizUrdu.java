@@ -58,7 +58,7 @@ public class QuizUrdu extends AppCompatActivity implements View.OnClickListener 
                     customToastClick(v);
                 } else if (v == img2) {
                     alphabet.setText("ب");
-                    img1.setImageResource(R.drawable.apple);
+                    img1.setImageResource(R.drawable.appleee);
                     img2.setImageResource(R.drawable.fish);
                     mediaPlayer.start();
                     img3.setImageResource(R.drawable.cat);
@@ -74,7 +74,7 @@ public class QuizUrdu extends AppCompatActivity implements View.OnClickListener 
                 } else if (v == img3) {
                     alphabet.setText("پ");
                     mediaPlayer.start();
-                    img1.setImageResource(R.drawable.kite);
+                    img1.setImageResource(R.drawable.kitee);
                     img2.setImageResource(R.drawable.dog);
                     img3.setImageResource(R.drawable.quail);
                     counter++;
@@ -105,7 +105,7 @@ public class QuizUrdu extends AppCompatActivity implements View.OnClickListener 
                     img1.setImageResource(R.drawable.yellow);
                     mediaPlayer.start();
                     img2.setImageResource(R.drawable.tokri);
-                    img3.setImageResource(R.drawable.rat);
+                    img3.setImageResource(R.drawable.ratt);
                     counter++;
                 }
             } else if (counter == 5) {
@@ -148,7 +148,7 @@ public class QuizUrdu extends AppCompatActivity implements View.OnClickListener 
                     img1.setImageResource(R.drawable.nose);
                     mediaPlayer.start();
                     img2.setImageResource(R.drawable.chand);
-                    img3.setImageResource(R.drawable.monkey);
+                    img3.setImageResource(R.drawable.raja);
                     counter++;
 
                 }
@@ -192,7 +192,7 @@ public class QuizUrdu extends AppCompatActivity implements View.OnClickListener 
                     customToastClick(v);
                 } else if (v == img3) {
                     alphabet.setText("د");
-                    img1.setImageResource(R.drawable.apple);
+                    img1.setImageResource(R.drawable.appleee);
                     mediaPlayer.start();
                     img2.setImageResource(R.drawable.dodh);
                     img3.setImageResource(R.drawable.quail);
@@ -250,7 +250,7 @@ public class QuizUrdu extends AppCompatActivity implements View.OnClickListener 
                     img1.setImageResource(R.drawable.goat);
                     img2.setImageResource(R.drawable.pahar);
                     mediaPlayer.start();
-                    img3.setImageResource(R.drawable.water);
+                    img3.setImageResource(R.drawable.waterr);
                     counter++;
                 } else if (v == img2) {mp.start();
                     customToastClick(v);
@@ -275,7 +275,7 @@ public class QuizUrdu extends AppCompatActivity implements View.OnClickListener 
                     alphabet.setText("ژ");
                     img1.setImageResource(R.drawable.azdaha);
                     mediaPlayer.start();
-                    img2.setImageResource(R.drawable.zebra);
+                    img2.setImageResource(R.drawable.zebraa);
                     img3.setImageResource(R.drawable.parrot);
                     counter++;
                 } else if (v == img2) {mp.start();
@@ -287,7 +287,7 @@ public class QuizUrdu extends AppCompatActivity implements View.OnClickListener 
                 if (v == img1) {
                     alphabet.setText("س");
                     img1.setImageResource(R.drawable.hat);
-                    img2.setImageResource(R.drawable.water);
+                    img2.setImageResource(R.drawable.waterr);
                     mediaPlayer.start();
                     img3.setImageResource(R.drawable.cycle);
                     counter++;
@@ -316,7 +316,7 @@ public class QuizUrdu extends AppCompatActivity implements View.OnClickListener 
                     alphabet.setText("ص");
                     img1.setImageResource(R.drawable.saban);
                     img2.setImageResource(R.drawable.ink);
-                    img3.setImageResource(R.drawable.apple);
+                    img3.setImageResource(R.drawable.appleee);
                     mediaPlayer.start();
                     counter++;
                 } else if (v == img3) {mp.start();
@@ -340,10 +340,10 @@ public class QuizUrdu extends AppCompatActivity implements View.OnClickListener 
                     customToastClick(v);
                 } else if (v == img2) {
                     alphabet.setText("ط");
-                    img1.setImageResource(R.drawable.parrot);
+                    img1.setImageResource(R.drawable.tota);
                     img2.setImageResource(R.drawable.zaief);
                     mediaPlayer.start();
-                    img3.setImageResource(R.drawable.rat);
+                    img3.setImageResource(R.drawable.ratt);
                     counter++;
                 } else if (v == img3) {
                     mp.start();
@@ -464,7 +464,7 @@ public class QuizUrdu extends AppCompatActivity implements View.OnClickListener 
                     alphabet.setText("ل");
                     img1.setImageResource(R.drawable.yellow);
                     img2.setImageResource(R.drawable.larka);
-                    img3.setImageResource(R.drawable.rat);
+                    img3.setImageResource(R.drawable.ratt);
                     mediaPlayer.start();
                     counter++;
                 }
@@ -474,7 +474,7 @@ public class QuizUrdu extends AppCompatActivity implements View.OnClickListener 
                     customToastClick(v);
                 } else if (v == img2) {
                     alphabet.setText("م");
-                    img1.setImageResource(R.drawable.fish);
+                    img1.setImageResource(R.drawable.machli);
                     img2.setImageResource(R.drawable.goat);
                     mediaPlayer.start();
                     img3.setImageResource(R.drawable.ball);

@@ -23,7 +23,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/science"
+                android:src="@drawable/banana"
                 android:layout_weight="3"
 
                 android:layout_gravity="center_vertical"
@@ -52,7 +52,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/laptop"
+                android:src="@drawable/ca"
                 android:layout_weight="3"
 
                 android:layout_gravity="center_vertical"
@@ -82,7 +82,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/weather"
+                android:src="@drawable/h1"
                 android:layout_weight="3"
 
                 android:layout_gravity="center_vertical"
@@ -112,7 +112,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/shape"
+                android:src="@drawable/h2"
                 android:layout_weight="3"
 
                 android:layout_gravity="center_vertical"
@@ -142,7 +142,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/month"
+                android:src="@drawable/p1"
                 android:paddingLeft="10dp"
                 android:layout_weight="3"
 
@@ -174,7 +174,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/month"
+                android:src="@drawable/p1"
                 android:paddingLeft="10dp"
                 android:layout_weight="3"
 
@@ -206,7 +206,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/month"
+                android:src="@drawable/ship"
                 android:paddingLeft="10dp"
                 android:layout_weight="3"
 

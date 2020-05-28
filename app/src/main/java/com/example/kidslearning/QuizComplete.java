@@ -23,7 +23,7 @@ MediaPlayer mediaPlayer;
         setContentView(R.layout.activity_quiz_complete);
     mediaPlayer=MediaPlayer.create(this,R.raw.clap);
     mediaPlayer.start();
-    simple_Notification();
+//    simple_Notification();
     new Handler().postDelayed(new Runnable() {
         @Override
         public void run() {

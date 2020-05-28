@@ -54,7 +54,7 @@ public class QuizOneTwo extends AppCompatActivity implements View.OnClickListene
                 mp.start();
                 customToastClick(v);
             } else if (v == img2) {
-                alphabet.setText("Tap on two pencils");
+                alphabet.setText("Tap on two apples");
                 img1.setImageResource(R.drawable.five);
                 mediaPlayer.start();
                 img2.setImageResource(R.drawable.seven);
@@ -69,7 +69,7 @@ public class QuizOneTwo extends AppCompatActivity implements View.OnClickListene
             } else if (v == img2) {mp.start();
                 customToastClick(v);
             } else if (v == img3) {
-                alphabet.setText("Tap on three pencils");
+                alphabet.setText("Tap on three apples");
                 img1.setImageResource(R.drawable.three);
                 img2.setImageResource(R.drawable.seven);
                 img3.setImageResource(R.drawable.four);
@@ -78,7 +78,7 @@ public class QuizOneTwo extends AppCompatActivity implements View.OnClickListene
             }
         } else if (counter == 3) {
             if (v == img1) {
-                alphabet.setText("Tap on four pencils");
+                alphabet.setText("Tap on four apples");
                 img1.setImageResource(R.drawable.one);
                 img2.setImageResource(R.drawable.eight);
                 mediaPlayer.start();
@@ -96,7 +96,7 @@ public class QuizOneTwo extends AppCompatActivity implements View.OnClickListene
                 customToastClick(v);
 
             } else if (v == img3) {
-                alphabet.setText("Tap on five pencils");
+                alphabet.setText("Tap on five apples");
                 img1.setImageResource(R.drawable.two);
                 img2.setImageResource(R.drawable.five);
                 mediaPlayer.start();
@@ -108,7 +108,7 @@ public class QuizOneTwo extends AppCompatActivity implements View.OnClickListene
                 mp.start();
                 customToastClick(v);
             } else if (v == img2) {
-                alphabet.setText("Tap on six pencils");
+                alphabet.setText("Tap on six apples");
                 img1.setImageResource(R.drawable.six);
                 img2.setImageResource(R.drawable.nine);
                 mediaPlayer.start();
@@ -120,7 +120,7 @@ public class QuizOneTwo extends AppCompatActivity implements View.OnClickListene
             }
         } else if (counter == 6) {
             if (v == img1) {
-                alphabet.setText("Tap on seven pencils");
+                alphabet.setText("Tap on seven apples");
                 img1.setImageResource(R.drawable.ten);
                 mediaPlayer.start();
                 img2.setImageResource(R.drawable.four);
@@ -141,7 +141,7 @@ public class QuizOneTwo extends AppCompatActivity implements View.OnClickListene
                 mp.start();
                 customToastClick(v);
             } else if (v == img3) {
-                alphabet.setText("Tap on eight pencils");
+                alphabet.setText("Tap on eight apples");
                 img1.setImageResource(R.drawable.two);
                 mediaPlayer.start();
                 img2.setImageResource(R.drawable.eight);
@@ -154,7 +154,7 @@ public class QuizOneTwo extends AppCompatActivity implements View.OnClickListene
                 mp.start();
                 customToastClick(v);
             } else if (v == img2) {
-                alphabet.setText("Tap on nine pencils");
+                alphabet.setText("Tap on nine apples");
                 mediaPlayer.start();
                 img1.setImageResource(R.drawable.nine);
                 img2.setImageResource(R.drawable.seven);
@@ -167,7 +167,7 @@ public class QuizOneTwo extends AppCompatActivity implements View.OnClickListene
             }
         } else if (counter == 9) {
             if (v == img1) {
-                alphabet.setText("Tap on ten pencils");
+                alphabet.setText("Tap on ten apples");
                 img1.setImageResource(R.drawable.ten);
                 mediaPlayer.start();
                 img2.setImageResource(R.drawable.two);

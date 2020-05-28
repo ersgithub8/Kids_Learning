@@ -112,7 +112,7 @@ public class Quizabc extends AppCompatActivity implements View.OnClickListener {
             img1.setImageResource(R.drawable.yellow);
             img2.setImageResource(R.drawable.egg);
             mediaPlayer.start();
-            img3.setImageResource(R.drawable.rat);
+            img3.setImageResource(R.drawable.ratt);
             counter++;
         }
         }else if(counter==5){
@@ -201,7 +201,7 @@ public class Quizabc extends AppCompatActivity implements View.OnClickListener {
             customToastClick(v);
         }else if (v==img3){
             alphabet.setText("K");
-            img1.setImageResource(R.drawable.apple);
+            img1.setImageResource(R.drawable.appleee);
             img2.setImageResource(R.drawable.kite);
             img3.setImageResource(R.drawable.quail);
             mediaPlayer.start();
@@ -259,7 +259,7 @@ public class Quizabc extends AppCompatActivity implements View.OnClickListener {
             img1.setImageResource(R.drawable.goat);
             img2.setImageResource(R.drawable.ocean);
             mediaPlayer.start();
-            img3.setImageResource(R.drawable.water);
+            img3.setImageResource(R.drawable.waterr);
             counter++;
         }else if(v==img2){
             mp.start();
@@ -303,8 +303,8 @@ public class Quizabc extends AppCompatActivity implements View.OnClickListener {
             alphabet.setText("R");
             img1.setImageResource(R.drawable.hat);
             mediaPlayer.start();
-            img2.setImageResource(R.drawable.water);
-            img3.setImageResource(R.drawable.rat);
+            img2.setImageResource(R.drawable.waterr);
+            img3.setImageResource(R.drawable.ratt);
             counter++;
         }else if(v==img2){
             mp.start();
@@ -337,7 +337,7 @@ public class Quizabc extends AppCompatActivity implements View.OnClickListener {
             img1.setImageResource(R.drawable.tap);
             img2.setImageResource(R.drawable.ink);
             mediaPlayer.start();
-            img3.setImageResource(R.drawable.apple);
+            img3.setImageResource(R.drawable.appleee);
             counter++;
         }else if (v==img3){
             mp.start();
@@ -367,7 +367,7 @@ public class Quizabc extends AppCompatActivity implements View.OnClickListener {
             img1.setImageResource(R.drawable.violin);
             img2.setImageResource(R.drawable.parrot);
             mediaPlayer.start();
-            img3.setImageResource(R.drawable.rat);
+            img3.setImageResource(R.drawable.ratt);
             counter++;
         }else if (v==img3){
             mp.start();
@@ -377,7 +377,7 @@ public class Quizabc extends AppCompatActivity implements View.OnClickListener {
         if (v==img1){
             alphabet.setText("W");
             img1.setImageResource(R.drawable.egg);
-            img2.setImageResource(R.drawable.water);
+            img2.setImageResource(R.drawable.waterr);
             mediaPlayer.start();
             img3.setImageResource(R.drawable.cat);
             counter++;

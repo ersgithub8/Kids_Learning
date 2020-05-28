@@ -34,7 +34,7 @@
                 android:layout_height="200dp"
                 android:layout_weight="1"
                 android:id="@+id/bpimg1"
-                android:src="@drawable/hair"
+                android:src="@drawable/foot"
                 />
             <ImageView
                 android:layout_width="0dp"
@@ -51,7 +51,7 @@
             android:layout_weight="1"
             android:layout_gravity="center_horizontal"
             android:id="@+id/bpimg3"
-            android:src="@drawable/eye"
+            android:src="@drawable/arm"
             />
     </LinearLayout>
 </ScrollView>

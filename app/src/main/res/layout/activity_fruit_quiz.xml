@@ -34,14 +34,14 @@
                 android:layout_height="200dp"
                 android:layout_weight="1"
                 android:id="@+id/frimg1"
-                android:src="@drawable/kela"
+                android:src="@drawable/ball"
                 />
             <ImageView
                 android:layout_width="0dp"
                 android:layout_height="200dp"
                 android:layout_weight="1"
                 android:id="@+id/frimg2"
-                android:src="@drawable/apple"
+                android:src="@drawable/applee"
                 />
 
         </LinearLayout>
@@ -51,7 +51,7 @@
             android:layout_weight="1"
             android:layout_gravity="center_horizontal"
             android:id="@+id/frimg3"
-            android:src="@drawable/baries"
+            android:src="@drawable/pineapple"
             />
     </LinearLayout>
 </ScrollView>

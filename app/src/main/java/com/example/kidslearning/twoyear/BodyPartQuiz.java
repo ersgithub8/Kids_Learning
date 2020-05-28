@@ -75,16 +75,16 @@ public class BodyPartQuiz extends AppCompatActivity implements View.OnClickListe
                 img1.setImageResource(R.drawable.nose);
                 mediaPlayer.start();
 
-                img2.setImageResource(R.drawable.head);
-                img3.setImageResource(R.drawable.legs);
+                img2.setImageResource(R.drawable.hand);
+                img3.setImageResource(R.drawable.leg);
                 counter++;
             }
         } else if (counter == 3) {
             if (v == img1) {
-                alphabet.setText("Which one is head?");
-                img1.setImageResource(R.drawable.legs);
+                alphabet.setText("Which one is Foot?");
+                img1.setImageResource(R.drawable.leg);
                 img2.setImageResource(R.drawable.eye);
-                img3.setImageResource(R.drawable.head);
+                img3.setImageResource(R.drawable.foot);
                 mediaPlayer.start();
 
                 counter++;
@@ -102,34 +102,34 @@ public class BodyPartQuiz extends AppCompatActivity implements View.OnClickListe
             } else if (v == img3) {
                 alphabet.setText("Which one is leg?");
                 img1.setImageResource(R.drawable.ear);
-                img2.setImageResource(R.drawable.legs);
+                img2.setImageResource(R.drawable.leg);
                 mediaPlayer.start();
 
-                img3.setImageResource(R.drawable.hair);
+                img3.setImageResource(R.drawable.eye);
                 counter++;
             }
         } else if (counter == 5) {
             if (v == img1) {mp.start();
                 customToastClick(v);
             } else if (v == img2) {
-                alphabet.setText("Which one is hair?");
-                img1.setImageResource(R.drawable.hair);
+                alphabet.setText("Which one is Knee?");
+                img1.setImageResource(R.drawable.knee);
                 mediaPlayer.start();
 
                 img2.setImageResource(R.drawable.mouth);
-                img3.setImageResource(R.drawable.neck);
+                img3.setImageResource(R.drawable.ear);
                 counter++;
             } else if (v == img3) {mp.start();
                 customToastClick(v);
             }
         } else if (counter == 6) {
             if (v == img1) {
-                alphabet.setText("Which one is neck?");
+                alphabet.setText("Which one is Arm?");
                 mediaPlayer.start();
 
-                img1.setImageResource(R.drawable.head);
+                img1.setImageResource(R.drawable.leg);
                 img2.setImageResource(R.drawable.eye);
-                img3.setImageResource(R.drawable.neck);
+                img3.setImageResource(R.drawable.arm);
                 counter++;
             } else if (v == img2) {mp.start();
                 customToastClick(v);
@@ -146,7 +146,7 @@ public class BodyPartQuiz extends AppCompatActivity implements View.OnClickListe
                 img1.setImageResource(R.drawable.mouth);
                 mediaPlayer.start();
 
-                img2.setImageResource(R.drawable.legs);
+                img2.setImageResource(R.drawable.hand);
                 img3.setImageResource(R.drawable.nose);
                 counter++;
 

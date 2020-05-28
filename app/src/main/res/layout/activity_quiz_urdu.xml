@@ -40,7 +40,7 @@
                 android:layout_height="200dp"
                 android:layout_weight="1"
                 android:id="@+id/qurimg1"
-                android:src="@drawable/fakhta"
+                android:src="@drawable/raja"
                 />
             <ImageView
                 android:layout_width="0dp"
@@ -57,7 +57,7 @@
             android:layout_weight="1"
             android:layout_gravity="center_horizontal"
             android:id="@+id/qurimg3"
-            android:src="@drawable/yakhni"
+            android:src="@drawable/larka"
             />
     </LinearLayout>
 </ScrollView>

@@ -17,8 +17,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".oneyear.Counting"></activity>
-        <activity android:name=".threeyear.Art"></activity>
+        <activity android:name=".fiveyears.MonthOfYearQuiz"></activity>
+        <activity android:name=".fiveyears.MonthOfYear" />
+        <activity android:name=".fiveyears.ShapesQuiz" />
+        <activity android:name=".fiveyears.Shapes" />
+        <activity android:name=".fiveyears.QuizWeather" />
+        <activity android:name=".years.Weather" />
+        <activity android:name=".oneyear.Alphabets" />
+        <activity android:name=".oneyear.Counting" />
+        <activity android:name=".threeyear.Art" />
         <activity android:name=".fouryear.Animalandgk" />
         <activity android:name=".fiveyears.QuizMaths" />
         <activity android:name=".twoyear.ColorQuiz" />
