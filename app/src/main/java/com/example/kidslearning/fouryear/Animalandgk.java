@@ -13,7 +13,7 @@ import com.example.kidslearning.VideoActivity;
 import com.example.kidslearning.fiveyears.ScienceandComputer;
 
 public class Animalandgk extends AppCompatActivity {
-    LinearLayout gk,animal1,animal2;
+    LinearLayout gk,animal1,animal2,quiz;
     MediaPlayer mp;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +25,7 @@ public class Animalandgk extends AppCompatActivity {
         mp=MediaPlayer.create(this,R.raw.press);
         gk=(LinearLayout)findViewById(R.id.gkgk);
         animal1=(LinearLayout)findViewById(R.id.animal1);
+        quiz=(LinearLayout)findViewById(R.id.quizgk);
         animal2=(LinearLayout)findViewById(R.id.animal2);
 
         gk.setOnClickListener(new View.OnClickListener() {
@@ -53,6 +54,14 @@ public class Animalandgk extends AppCompatActivity {
                 mp.start();
                 Intent intent=new Intent(Animalandgk.this, VideoActivity.class);
                 intent.putExtra("url","https://firebasestorage.googleapis.com/v0/b/new-apps-69.appspot.com/o/kids%20learning%20new%20videos%2Fanimals%2FAnimals2.mp4?alt=media&token=fe44c6bb-8d50-4ce4-8f66-2124c30e1e2e");
+                startActivity(intent);
+            }
+        });
+
+        quiz.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(Animalandgk.this, AnimalQuiz.class);
                 startActivity(intent);
             }
         });
