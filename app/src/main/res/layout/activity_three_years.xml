@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,11 +8,15 @@
     android:background="@drawable/backgroun2"
 
     tools:context="com.example.kidslearning.years.ThreeYears">
+    <!--
+    Scrol View
+    -->
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:gravity="center"
         android:orientation="vertical">
 
         <LinearLayout
@@ -21,6 +25,7 @@
             android:orientation="horizontal"
             android:layout_height="144dp"
             android:weightSum="10"
+            android:visibility="gone"
             android:background="@drawable/button4"
             android:id="@+id/kalma2">
             <ImageView
@@ -50,6 +55,7 @@
             android:orientation="horizontal"
             android:layout_height="144dp"
             android:weightSum="10"
+            android:visibility="gone"
             android:background="@drawable/button5"
             android:id="@+id/gestures">
             <ImageView
@@ -79,6 +85,7 @@
             android:orientation="horizontal"
             android:layout_height="144dp"
             android:weightSum="10"
+            android:visibility="gone"
             android:background="@drawable/button1"
             android:id="@+id/spelling">
             <ImageView
@@ -161,4 +168,4 @@
         </LinearLayout>
     </LinearLayout>
 
-</ScrollView>
+</LinearLayout>

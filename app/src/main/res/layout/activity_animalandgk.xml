@@ -18,6 +18,7 @@
             android:orientation="horizontal"
             android:layout_height="144dp"
             android:weightSum="10"
+            android:visibility="gone"
             android:background="@drawable/button3"
             android:id="@+id/gkgk">
             <ImageView

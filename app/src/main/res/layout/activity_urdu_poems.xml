@@ -56,6 +56,7 @@
             android:orientation="vertical"
             android:layout_height="300dp"
             android:weightSum="10"
+            android:visibility="gone"
             android:background="@drawable/button5"
             android:id="@+id/p2">
             <ImageView
@@ -86,6 +87,7 @@
             android:orientation="vertical"
             android:layout_height="300dp"
             android:weightSum="10"
+            android:visibility="gone"
             android:background="@drawable/button1"
             android:id="@+id/p3">
             <ImageView
@@ -116,6 +118,7 @@
             android:orientation="vertical"
             android:layout_height="300dp"
             android:weightSum="10"
+            android:visibility="gone"
             android:background="@drawable/button2"
             android:id="@+id/p4">
             <ImageView

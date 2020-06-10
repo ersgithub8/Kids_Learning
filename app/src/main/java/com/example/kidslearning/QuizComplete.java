@@ -7,6 +7,7 @@ import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.BitmapFactory;
 import android.media.MediaPlayer;
 import android.media.RingtoneManager;
@@ -23,7 +24,7 @@ MediaPlayer mediaPlayer;
         setContentView(R.layout.activity_quiz_complete);
     mediaPlayer=MediaPlayer.create(this,R.raw.clap);
     mediaPlayer.start();
-//    simple_Notification();
+    simple_Notification();
     new Handler().postDelayed(new Runnable() {
         @Override
         public void run() {
@@ -37,10 +38,11 @@ MediaPlayer mediaPlayer;
         int notificationId = 0;
         //init notification and declare specifications
         NotificationCompat.Builder builder = new NotificationCompat.Builder(this)
-                .setSmallIcon(R.drawable.icon)
-                .setLargeIcon(BitmapFactory.decodeResource(getResources(), R.drawable.icon))
+                .setSmallIcon(R.drawable.iconnoti)
+                .setLargeIcon(BitmapFactory.decodeResource(getResources(), R.drawable.iconnoti))
                 .setContentTitle("Congratulation")
-                .setContentText("You have passed the Quiz.")
+//                .setContentText("You have passed the Quiz. \nAnd your score is "+loadData())
+                .setStyle(new NotificationCompat.InboxStyle().addLine("You have passed the Quiz.").addLine("Your score is"+loadData()))
                 .setAutoCancel(true)
                 .setDefaults(NotificationCompat.DEFAULT_ALL);
 
@@ -62,6 +64,11 @@ MediaPlayer mediaPlayer;
         }
 
         notificationManager.notify(notificationId,builder.build());
+    }
+
+    public int loadData(){
+        SharedPreferences sharedPreferences=getSharedPreferences("savescore",MODE_PRIVATE);
+        return  sharedPreferences.getInt("scoreValue",MODE_PRIVATE);
     }
 
 }

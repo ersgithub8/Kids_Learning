@@ -19,6 +19,7 @@
             android:orientation="horizontal"
             android:layout_height="144dp"
             android:weightSum="10"
+            android:visibility="gone"
             android:background="@drawable/button4"
             android:id="@+id/kalma">
             <ImageView
@@ -163,6 +164,7 @@
             android:orientation="horizontal"
             android:layout_height="144dp"
             android:weightSum="10"
+            android:visibility="gone"
             android:background="@drawable/button6"
             android:id="@+id/greetings">
             <ImageView

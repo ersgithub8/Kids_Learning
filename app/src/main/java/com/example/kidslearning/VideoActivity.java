@@ -111,7 +111,7 @@ public class VideoActivity extends AppCompatActivity {
         request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
         //request.setDestinationInExternalFilesDir();
 
-        request.setDestinationInExternalPublicDir(Environment.DIRECTORY_DOWNLOADS,"Kids Learnig"+System.currentTimeMillis());
+        request.setDestinationInExternalPublicDir(Environment.DIRECTORY_DOWNLOADS,"Kids Learning "+System.currentTimeMillis()+".mp4");
         DownloadManager manager=(DownloadManager)getSystemService(Context.DOWNLOAD_SERVICE);
         manager.enqueue(request);
     }
